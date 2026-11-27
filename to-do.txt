@@ -1,3 +1,17 @@
 - space in between files, maybe seconds selector
 - make it possible for video
 - make it self computer hostable rather than web
+
+mona wants:
+    - I see that I can reorganize the files if they don’t load in order.
+        Is there anyway to get it to load in a certain order? 
+        (the three I did were 4312B414-06.wav 4312B414-07.wav and 4312B414-08.wav) - 
+        would it be able to put those in numeric order? 
+    
+    - Can we have it save to a certain file name, based on what it reads from the
+        files I’m putting in? Is that crazy?  Like – if I put in those three files,
+        it would name it something based on that? Maybe 4312B414-06_08 or even just 4312B414a
+        4312B414b etc? hmm.
+    
+    - Next next …whether in the program – or in my computer settings – can I set it
+        to always download to a certain place (not necessarily the downloads folder)?  
