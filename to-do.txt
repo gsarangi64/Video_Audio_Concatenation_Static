@@ -1,0 +1,3 @@
+- space in between files, maybe seconds selector
+- make it possible for video
+- make it self computer hostable rather than web
