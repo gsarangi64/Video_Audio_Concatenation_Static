@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio joiner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>Audio joiner</h1>
+    <p class="sub">Combine audio files into one, in the order you set. Everything runs in your browser; nothing is uploaded.</p>
+
+    <label id="drop">
+        <input id="file" type="file" accept="audio/*" multiple>
+        Drop audio files here or click to choose
+    </label>
+
+    <ol id="list" aria-label="Files to join, in order"></ol>
+
+    <button id="join" disabled>Join files</button>
+    <button id="clear" disabled>Clear list</button>
+    <progress id="bar" max="1" value="0" hidden></progress>
+    <div id="status" role="status"></div>
+    <div id="result"></div>
+</main>
+
+<script src="app.js" defer></script>
+</body>
+</html>
